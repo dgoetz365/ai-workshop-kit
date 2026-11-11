@@ -1,44 +1,39 @@
 # AI Workshop Kit
 
-Help a team decide where AI is useful, design a reviewable workflow, and test what happens when the answer is wrong or unavailable.
+Run a practical session on choosing useful AI tasks, designing reviewable workflows, and testing failures.
 
-This is a complete 60-minute workshop for technical leads, facilitators and teams exploring business applications of AI. It includes a learner workbook, facilitator notes, fictional practice scenarios and a project-review rubric. No software account or paid model is required.
+**60-minute workshop · Facilitator guide · Learner workbook · No paid tools required**
 
-**[Start the learner workbook](workbook.md)** · **[Run the session](facilitator-guide.md)** · **[Use the rubric](rubric.md)**
+[Learner workbook](workbook.md) · [Facilitator guide](facilitator-guide.md) · [Portfolio](https://github.com/dgoetz365) · [MIT license](LICENSE)
 
-## What participants produce
+## Start here
 
-- A justified choice between an assistant, deterministic automation and an application.
-- A small workflow showing the source of truth, review point and recovery path.
-- Four acceptance scenarios, including missing information and a failed dependency.
-- A short teach-back explaining the decision to a colleague.
+For individual practice, open the [workbook](workbook.md). To run a group session, read the [facilitator guide](facilitator-guide.md) and choose a [fictional scenario](scenarios.md). A text editor or printed copy is enough.
 
-## Materials and timing
+Participants leave with a justified choice of approach, a small workflow, four acceptance scenarios, and a short explanation of their design decisions.
+
+## Session plan
 
 | Time | Activity | Material |
 | --- | --- | --- |
-| 0–10 min | Frame the task and decide what success means | [Workbook, exercise 1](workbook.md#exercise-1-name-the-task) |
-| 10–25 min | Choose an approach and explain the tradeoff | [Practice scenarios](scenarios.md) |
-| 25–40 min | Design a useful, reviewable workflow | [Workbook, exercise 3](workbook.md#exercise-3-design-the-workflow) |
+| 0–10 min | Define the task and success criteria | [Workbook, exercise 1](workbook.md#exercise-1-name-the-task) |
+| 10–25 min | Choose an approach and explain tradeoffs | [Practice scenarios](scenarios.md) |
+| 25–40 min | Design the workflow and review point | [Workbook, exercise 3](workbook.md#exercise-3-design-the-workflow) |
 | 40–50 min | Test failure and recovery | [Failure exercise](workbook.md#exercise-4-test-the-unhappy-path) |
-| 50–60 min | Teach back and peer review | [Rubric](rubric.md) |
+| 50–60 min | Teach back and review | [Rubric](rubric.md) |
 
-Timing is a suggested facilitation plan, not a claim about measured participant completion. Work in pairs, or use the workbook individually. A text editor or printed copy is enough.
+Timing is a suggested plan. Use pairs for discussion, or work through the exercises independently.
 
-## Optional software demonstrations
+## Optional demonstrations
 
-These companion projects are independent public examples using fictional data:
+- [Service Desk Assistant](https://github.com/dgoetz365/service-desk-assistant): inspect evidence and review a response draft.
+- [Workflow Desk](https://github.com/dgoetz365/workflow-desk): follow a request through approval and inventory constraints.
+- [Data Sync Workbench](https://github.com/dgoetz365/data-sync-workbench): preview an import while preserving local work.
 
-- [Service Desk Assistant](https://github.com/dgoetz365/service-desk-assistant): source-backed answers, tool traces and a human-reviewed draft.
-- [Workflow Desk](https://github.com/dgoetz365/workflow-desk): a working request and inventory application.
-- [Data Sync Workbench](https://github.com/dgoetz365/data-sync-workbench): previewing and applying imports while preserving local work.
+The workshop works without these projects. Keep the [offline demonstration script](demo-script.md) available when showing optional software or models.
 
-The workshop can be delivered without any of these projects. If demonstrating a model, test its availability before the session and keep the [offline demonstration script](demo-script.md) ready.
+## Reuse
 
-## Reuse and attribution
+Written by [Daniel Goetz](https://github.com/dgoetz365) as original public teaching material. All practice scenarios and records are fictional; no employer training materials or operational data are included.
 
-Written by Daniel Goetz as an original public resource informed by experience building applications and helping teams adopt technology. These are newly written materials, not an employer's training documents. All practice scenarios and records are fictional. There are no employer records, internal policies, screenshots or source code here.
-
-The materials use the [MIT license](LICENSE). When adapting the session, retain the license, review the assumptions for your audience, and replace the examples only with material you are permitted to share.
-
-Feedback is most useful when it identifies the exercise, the confusing instruction and the change that would help. Do not include confidential participant or organization information in issues.
+Adapt it under the [MIT license](LICENSE), retain attribution, and review the assumptions for your audience. Feedback should identify the exercise and the instruction that needs improvement; keep confidential participant and organization information out of issues.
